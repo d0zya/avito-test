@@ -203,6 +203,23 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Large local competition datasets
+data/
+models/
+artifacts/
+.DS_Store
+
+# Local encoder prototypes, excluded from the published solution
+experiments/e03_e5_dense.py
+experiments/e04_e5_finetune.py
+experiments/e05_dense_prf.py
+
+# Local instructions for the working session
+AGENTS.md
+
+# Generated but never submitted
+submissions/submission_02.csv
+
 # Ruff stuff:
 .ruff_cache/
 
